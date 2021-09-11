@@ -1,0 +1,3476 @@
+CHAPTER 1:
+
+
+<style>
+H1 { font-size:16pt color:blue;}
+</style>
+
+
+
+<html>
+   <body>
+      <h1>this headline is blue and 16 pt.</h1>
+   </body>
+</html>
+
+
+
+
+<html>
+   <head>
+      <style>
+h1 { font-size:16pt color:blue;}
+      </style>
+   </head>
+   <body>
+      <h1>this headline is blue and 16 pt.</h1>
+   </body>
+</html>
+
+
+      <style>
+h1 { font-size:16pt color:blue;}
+      </style>
+
+
+
+H1 { font-size:16pt color:red;}
+
+
+
+<html>
+<head>
+
+<style>
+
+div.box {width: 300px; height: 200px; padding: 30px;
+         font: 46pt times new roman;}
+</style>
+
+</head>
+<body>
+
+<div class="box" style=" filter: progid:DXImageTransform.Microsoft.Alpha 
+
+(Opacity=100, 
+FinishOpacity=0, Style=1, StartX=0, FinishX=0, StartY=0, 
+FinishY=100)">
+
+Hey...you can modify opacity.</div>
+
+
+</body>
+</html>
+
+
+
+
+<html>
+<head>
+
+<style>
+
+div.box {width: 300px; height: 200px; padding: 30px;
+         font: 46pt times new roman;}
+</style>
+
+</head>
+<body>
+
+<div class="box" style="background: green; filter: progid:DXImageTransform.Microsoft.Alpha 
+
+(Opacity=100, 
+FinishOpacity=0, Style=2, StartX=0, FinishX=0, StartY=0, 
+FinishY=100)">
+
+Hey...you can modify opacity.</div>
+
+
+</body>
+</html>
+
+----------------------------------------------------------------------------
+CHAPTER 2:
+p
+{
+color: blue;
+text-align: right;
+font-family: courier;
+}
+
+
+
+
+
+
+
+<html>
+
+<head>
+<link type="text/css" rel="stylesheet" href="ParaStyle.css">
+</head>
+
+<body>
+
+<H1>Headline Text</H1>
+
+<p>This is body text</p>
+
+</body>
+
+</html>
+
+ {property: value pair}
+
+
+selector {property: value};
+
+
+p {color: blue};
+
+
+p {
+color: blue;
+text-align: right;
+font-family: courier;
+}
+
+
+
+
+p   {color: blue;
+text-align: right; font-family: courier;}
+
+
+
+p {color: "minty green";}
+
+
+
+p
+{
+color: blue;
+text-align: right;
+font-family: courier;
+}
+
+
+
+h1,h2,h3,h4 
+{
+font-family: Arial;
+}
+
+
+
+p.bodytext {color: black;}
+p.alert {color: red;}
+
+
+
+
+<p class="bodytext">
+This one is black.
+</p>
+
+<p class="alert">
+This is red.
+</p>
+
+
+
+/* This class can be used with any HTML tag */
+
+.highlight {color: blue;}
+
+
+
+<html>
+<head>
+
+
+<link type="text/css" rel="stylesheet" href="ParaStyle.css">
+</head>
+
+<body>
+
+<p class="highlight">
+I’m blue body text.
+</p> 
+
+<h2 class="highlight">
+I’m a BLUE HEADLINE
+</h2>
+
+</body>
+</html>
+
+
+
+<p>I say again, <span class="highlight">and I use blue for emphasis here</span> that you need to remember the lesson plans</p>
+
+
+
+/* This class can be used with any HTML tag */
+
+
+
+
+html>
+<head>
+
+<style>
+#highlight {color: yellow; font-style: italic;}
+</style>
+
+</head>
+<body>
+
+<p>ordinary default text </p>
+<p id="highlight">highlighted text </p>
+<p id="highlight">second attempt to use this id fails
+</p>
+
+<h1 id="highlight">highlighted text </h1>
+
+
+</body>
+</html>
+<HTML>
+<head>
+
+<style>
+#highlight {color: yellow; font-style: italic;}
+</style>
+
+</head>
+<body>
+
+<p>ordinary default text </p>
+
+<p id="highlight">highlighted text </p>
+
+</body>
+</html>
+
+
+<p class="framed pink">
+
+
+
+p.yellow {color: yellow;}
+
+<p class="Yellow">This is black!</p>
+
+
+<p style="border-bottom: blue">
+
+
+
+
+
+<html>
+<head>
+<style type="text/css">
+
+p {color:red;}
+
+</style>
+</head>
+
+
+<body>
+
+<p style="color: blue;">i guess i’m blue. </p>
+
+</body>
+</html>
+
+
+<p>I guess I’m blue. </p>
+
+
+p {color: blue !important;}
+
+
+ul h1 li.red {color: yellow;} 
+ 
+H1 {color: blue;}
+
+<html>
+<head>
+<style type="text/css">
+
+p {background: green;}
+
+</style>
+</head>
+
+
+<body>
+
+<p>diagrams <strong>belong in the box!</strong></p>
+
+</body>
+</html>
+
+----------------------------------------------------------------------------
+CHAPTER 3:
+
+<h3><font color="red">Warning:</font></h3>
+
+<style>
+
+h1 {color: red;}
+
+</style>
+
+
+
+body, p, table, h1, h2, h3, h4, h5, h6, {font-weight: bold;}
+
+* {font-weight: bold;}
+
+h1, h2, h3, h4, {font-weight: bold;}
+
+h1 {font-weight: bold; font: 18px Courier; color: green;}
+
+h1 {font-weight: bold}
+
+<html>
+<head>
+<style>
+
+h1 {font-weight: bold font: 28pt arial; color: green;}
+
+</style>
+</head>
+
+<body>
+<h1>a headline</h1>
+</body>
+</html>
+
+
+h1, h2, h3, h4 {color: green; background: white; font-family: Arial;}
+
+
+p.alert {color: red}
+
+
+<p class="alert">
+This is red.
+</p>
+
+
+p.alert {color: red}
+
+
+<p class="alert">
+
+p[class] {font-style: italic;}
+
+
+
+<p class="red">
+This is red.
+</p>
+
+
+
+<p class="signal">
+This is an important point!
+</p>
+
+
+
+car[onSale] {font-weight: bold;}
+
+
+<car onSale="5000">Chevy</car>
+<car onSale="2999">Ford</car>
+<car>Maxim</car>
+
+*[onSale] {font-weight: bold;}
+
+
+table[border][width] {property/value}
+
+
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+
+
+
+*[lang|="fr"] {color: blue;}
+
+
+<p lang="fr">Pouvez vous prospérer</p>
+<p lang="en-us">May you prosper</p>
+
+
+<p class=”running headline”>
+
+
+p[class~="running"] {color: blue;}
+
+
+car[onSale=”2999”] {font-weight: bold;}
+
+
+<car onSale="5000">Chevy</car>
+<car onSale="2999">Ford</car>
+<car>Maxim</car>
+
+strong {color:#400000;}
+em {color:#400000;}
+p {mso-margin-top-alt:auto; margin-right:0in; mso-margin-bottom-alt:auto; margin-left:0in; text-indent:12.25pt; mso-pagination:widow-orphan; font-size:12.0pt; font-family:"Times New Roman"; mso-fareast-font-family:Times;}
+
+strong {color:#400000;}
+
+
+strong {color: green;}
+
+
+<p class=MsoNormal>You’ve <strong>experimented</strong> with 
+
+p
+{
+color: blue;
+text-align: center;
+font-family: arial
+!important;
+}
+
+
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List
+href="Building%20your%20First%20Style%20Sheet_files/filelist.xml">
+<link  rel="stylesheet" href="MyFirst.css">
+<title>Building your First Style Sheet</title>
+
+
+p
+           {mso-margin-top-alt:auto;
+           margin-right:0in;
+           mso-margin-bottom-alt:auto;
+           margin-left:0in;
+           text-indent:12.25pt;
+           mso-pagination:widow-orphan;
+           font-size:12.0pt;
+           font-family:"Times New Roman";
+           mso-fareast-font-family:Times;}
+
+
+           font-family:"Times New Roman";
+
+
+font-family: arial;!Important
+
+
+font-family: arial!Important
+
+
+p
+{
+color: blue;
+text-align: center;
+font-family: arial;
+font-size:18.0pt!Important
+}
+
+
+p
+{
+color: blue;
+text-align: center;
+font-family: arial!Important;
+font-size:18.0pt!Important
+}
+
+
+
+h1
+           {mso-style-parent:"";
+           mso-style-next:Normal;
+           margin-top:14.0pt;
+           margin-right:0in;
+           margin-bottom:10.5pt;
+           margin-left:0in;
+           text-indent:0in;
+           line-height:24.0pt;
+           mso-line-height-rule:exactly;
+           mso-pagination:none;
+           page-break-after:avoid;
+           mso-outline-level:1;
+           font-size:17.0pt;
+           mso-bidi-font-size:10.0pt;
+           font-family:Georgia;
+           mso-fareast-font-family:"Times New Roman";
+           letter-spacing:.5pt;
+           mso-font-kerning:0pt;
+           font-weight:bold;
+           mso-bidi-font-weight:normal;
+           font-style:italic;
+           mso-bidi-font-style:normal;}
+
+
+p
+{
+color: blue;
+text-align: center;
+font-family: arial!Important;
+font-size:18.0pt!Important
+}
+h1, h2
+{
+font-family: ravie!Important;
+font-style: normal!Important
+text-align: center;
+}
+
+
+p
+{
+color: maroon;
+text-align: center;
+font-family: arial!Important;
+font-size:18.0pt!Important
+}
+
+
+
+<link  rel="stylesheet" href="MyFirst.css">
+<link  rel="stylesheet" href="MySecond.css">
+<title>Building your First Style Sheet</title>
+
+
+
+p
+{
+color: blue;
+text-align: center;
+font-family: arial!Important;
+font-size:18.0pt!Important
+}
+
+
+p
+{
+color: maroon;
+text-align: center;
+font-family: arial!Important;
+font-size:18.0pt!Important
+}
+
+<link  rel="stylesheet" href="MySecond.css">
+<link  rel="stylesheet" href="MyFirst.css">
+
+
+
+----------------------------------------------------------------------------
+CHAPTER 4:
+
+
+
+<html>
+<head>
+</head>
+<body>
+<h1>This Is The Headline</h1>
+
+<P>
+<IMG height="292" width="448" src="lake.jpg" >
+</P>
+
+<P>This is paragraph two.</P>
+</body>
+</html>
+
+
+<h1 align="center">This Is The Headline</h1>
+
+
+<IMG height="292" width="448" src="lake.jpg" >
+
+
+<html>
+<head>
+<style>
+.absol {position: absolute; top: 0px; left: 0px;}
+</style>
+</head>
+<body>
+<h1>This Is The Headline</h1>
+<p>
+This is a paragraph of text. 
+</p>
+<p>This is paragraph two.</p>
+<img class="absol" src="lake.jpg">
+
+</body>
+</html>
+
+<style >
+.absol {position: relative; top: 0px; left: 0px;}
+</style>
+
+
+
+<html>
+<head>
+<style >
+div.sidebar {position: absolute; background-color: cornflowerblue; top: 0; left: 0; width: 100px;  height: 75%; padding-left: 6px; padding-right: 4px; padding-top: 6px; font-size: 16pt;}
+div.maintext {position: absolute;  background-color: darkkhaki; top: 0; left: 110px; height: 75%;
+width: 75%;}
+img.relative {position: relative; left = 35%; top = 20%}
+</style>
+</head>
+<body>
+<div class="sidebar"> HERE is a sidebar. You can fill it with links, text, whatever... </div>
+<div class="maintext">   
+<IMG class="relative" height="100" width="175" src="town.jpg">
+</div>
+</body>
+</html>
+
+
+div.sidebar {position: absolute; background-color: cornflowerblue; top: 0; left: 0; width: 100px;  height: 75%; padding-left: 6px; padding-right: 4px; padding-top: 6px; font-size: 16pt;}
+
+
+
+div.maintext {position: absolute;  background-color: darkkhaki; top: 0; left: 110px; height: 75%;
+width: 75%;}
+
+
+
+img.relative {position: relative; left = 35%; top = 20%}
+
+
+<div class="sidebar"> HERE is a sidebar. You can fill it with links, text, whatever... </div>
+<div class="maintext">   
+<IMG class="relative" height="100" width="175" src="town.jpg">
+
+
+div.sidebar {position: absolute; z-index: 99; background-color: cornflowerblue; top: 0; left: 0;width: 130px; height: 65%; padding-left: 6px; padding-right: 4px; padding-top: 6px; font-size: 16pt;}
+
+
+
+
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60)
+
+
+
+<html>
+<head>
+<style>
+
+div.sidebar {position: absolute; z-index: 1; background-color: cornflowerblue; top: 20; left: 30; width: 150px; height: 35%; padding-left: 6px; padding-right: 4px; padding-top: 6px; font-size: 16pt;}
+div.maintext {position: absolute; z-index: 2; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60);  background-color: darkkhaki; top: 55;left: 100px; height: 75%; width: 75%;}
+
+</style>
+
+</head>
+<body background="sandstone.jpg">
+<div class="sidebar"> Take a look at this sidebar! Manipulate z-index, opacity and position and you can get some great effects.</div>
+<div class="maintext">   
+
+</div>
+</body>
+</html>
+
+
+
+
+div.maintext {position: absolute; z-index: 2; background-color: darkkhaki; top: 55;left: 100px; height: 75%; width: 75%;
+  opacity: 0.6;   /*supported by current Mozilla, Safari, and Opera*/-moz-opacity: 0.6;  /*older Mozilla*/
+  -khtml-opacity: 0.6;   /*older Safari*/
+  filter: alpha(opacity=60);  /*older IE*/
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60)} 
+
+----------------------------------------------------------------------------
+CHAPTER 5:
+
+
+
+p {font-family: arial;}
+
+
+p {font-family: ‘Showcard Gothic’, arial;}
+
+
+
+<html>
+<head>
+
+<style>
+
+p {font-size: 7pt;}
+p.arial {font-family: arial;}
+
+</style>
+</head>
+
+<body>
+
+<p>
+It's a bit difficult to read text at small font sizes, which is an advantage if -- for strictly legal reasons -- you don't want someone to see the small print in your document.
+</p>
+
+<p class = "arial">
+It's a bit difficult to read text at small font sizes, which is an advantage if -- for strictly legal  
+reasons -- you don't want someone to see the small print in your document.
+</p>
+
+</body>
+</html>
+
+
+<html>
+<head>
+
+<style>
+
+button {font: caption;}
+icon {font: icon;}
+menu {font: menu;}
+
+</style>
+</head>
+<body>
+
+<button>
+This is a caption on a button
+</button>
+
+<br>
+<icon>
+ICON FONT
+</icon>
+
+<br>
+<menu>
+menu font
+</menu>
+
+</body>
+</html>
+
+
+
+body {font-family: serif;}
+
+
+body {font-family: Garamond, serif;}
+
+
+H2 {font-weight: bold;}
+
+
+body {font-weight: bold;}
+p {font-weight: bolder;}
+
+
+body {font-weight: regular;}
+p {font-weight: bolder;}
+
+
+
+<html>
+<head>
+
+<style>
+
+em.smallcaps {font-style: normal;font-variant: small-caps;}
+
+p {font-size: x-large;}
+
+</style>
+</head>
+
+
+<body>
+
+
+
+<p>
+These vases were created around 4000 <em class="smallcaps">b.c.</em>Before glazing was invented.
+</p>
+
+
+
+</body>
+</html>
+
+
+
+<html>
+<head>
+
+<style>
+
+body {font-size: x-large;}
+
+p {font-size: smaller;}
+
+div {font-size: larger;}
+
+
+</style>
+</head>
+
+<body>
+
+This is the body text
+
+<p>
+This is one step smaller than its parent body.
+</p>
+
+<div>
+This is one step larger than the parent.
+</div>
+
+</body>
+</html>
+
+
+
+div {font-size: xx-large;}
+p {font-size: 75%;}
+
+
+p {font-size: 145%;}
+
+
+
+body {font-size: .2in;}
+h1 {font-size: 24pt;}
+
+
+
+p {font-family: Garamond; font-size: 26px;
+   font-weight: bold; font-style: italic;}
+
+
+p {font: bold italic 26px Garamond;}
+
+
+p {font: italic bold 26px Garamond;}
+
+
+p {font: bold italic Garamond 26px;}
+
+
+ 
+<html>
+<head>
+
+<style>
+
+h1.narrowed {font: bold 38px/.94 Arial;}
+h1 {font: bold 38px Arial;}
+
+</style>
+</head>
+<body>
+
+<h1>
+This Is the H1 Style
+With the Line Space Default
+</h1>
+
+<br>
+<br>
+
+<h1 class="narrowed">
+This Is Our Superior H1 Style
+With the Lines Closer Together
+</h1>
+
+</body>
+</html>
+
+
+<html>
+<head>
+
+<style>
+
+h1.over {text-decoration: overline;}
+h1.under {text-decoration: underline;}
+h1.strike {text-decoration: line-through;}
+
+</style>
+</head>
+<body>
+
+<h1 class="over">This is an overline.</h1>
+
+<h1 class="under">This is an underline.</h1>
+
+<h1 class="strike">This is a strikethrough.</h1>
+
+</body>
+</html>
+
+ 
+<style>
+
+h1.initcaps {text-transform: capitalize;}
+h1.uppercase {text-transform: uppercase;}
+
+</style>
+
+
+----------------------------------------------------------------------------
+CHAPTER 6:
+
+
+<html>
+<head>
+
+<style>
+
+body {font-size: 26px;}
+
+p {font-size: 1.5em;}
+
+p.abs {font-size: 39px;}
+
+
+</style>
+</head>
+<body>
+
+some text
+
+<p>
+some text (1.5 em of the parent body).
+</p>
+
+<p class="abs">
+some text (39 pixels).
+</p>
+
+</body>
+</html>
+
+
+
+<html>
+<head>
+
+<style>
+
+p.csspercent {margin-right: 20%}
+
+</style>
+</head>
+<body>
+
+here's some ordinary body text
+
+<br>
+<br>
+
+<table width="80%"> 
+text at eighty percent of the parent.
+</table>
+
+
+<p class="csspercent"> 
+text at eighty percent of the parent.
+</table>
+
+
+</body>
+</html> 
+
+
+<html>
+<head>
+
+<style>
+
+p.leftside {margin-right: 50%}
+p.rightside {margin-left: 50%}
+
+</style>
+</head>
+<body>
+
+here's some ordinary body text that goes the full distance across the browser window, then wraps to  
+the next line down.
+
+<br>
+<br>
+
+<p class="leftside">
+here's some ordinary paragraph text that stops half way across the browser window, then wraps to the  
+next line down.
+</p>
+
+
+<p class="rightside">
+here's some ordinary paragraph text that starts half way across the browser window, then wraps to  
+half way across the next line down.
+</p>
+
+
+
+</body>
+</html>
+
+<body background="WaterView.jpg">
+
+
+<html>
+<head>
+
+<style>
+
+p.warning {color: #ffcc33; font-style: italic;}
+
+</style>
+</head>
+<body>
+
+<p>An ordinary paragraph blah blah</p>
+
+<p class="warning">
+Warning: Wow! Here comes a whole bunch of gnats! What to do: cover yourself and your loved ones with netting and crouch down. Keep your mouth shut, too!
+</p>
+
+</body>
+</html>
+
+
+p.warning {color: lightslategray;}
+
+
+
+<html>
+<head>
+
+<style>
+
+img {border-style: solid;border-width:25px; color: skyblue;}
+
+
+</style>
+
+</head>
+<body>
+
+<img WIDTH=320px; HEIGHT=264px; src="GrandfatherHouse.jpg">
+
+</body>
+</html>
+
+
+<html>
+<head>
+
+<style>
+
+img {
+
+border-right: silver inset; border-left: silver inset;
+border-top: silver inset;border-bottom: silver inset;
+
+border-width:12px;}
+
+</style>
+
+</head>
+<body>
+
+<img WIDTH=320px; HEIGHT=264px; src="GrandfatherHouse.jpg">
+
+</body>
+</html>
+
+
+border-width:5px;
+
+
+img {
+
+border-right: silver outset; border-left: silver outset;
+border-top: silver outset;border-bottom: silver outset;
+
+border-width:12px;}
+
+<html>
+<head>
+
+<style>
+h1 {background-color: silver; padding: 6%;} 
+</style>
+
+</head>
+<body>
+
+<H1>Padding around a Headline</H1>
+
+</body>
+</html>
+
+<html>
+<head>
+
+<style>
+
+body {background-color: DodgerBlue;} 
+i {background-color: OliveDrab; color: orange;} 
+p {background-color: lavender; color: HotPink;} 
+
+</style>
+
+</head>
+<body>
+
+
+<p>Paragraphs are rendered in startling colors!</p>
+<p>And <i>italic text within those paragraphs</i> is even more annoying</p>
+
+
+</body>
+</html>
+
+----------------------------------------------------------------------------
+CHAPTER 7:
+
+
+
+<h1 style="letter-spacing: -0.06cm">This Headline is Slightly Squeezed</h1>
+
+
+<html>
+<head>
+
+<style>
+
+h1 {font-size:44px; letter-spacing: -0.12em}
+h1.unkerned {font-size:44px; letter-spacing: 0.00em;}
+
+
+
+</style>
+</head>
+<body>
+
+<h1>This Headline is Slightly Squeezed through Kerning</h1>
+
+<h1 class="unkerned">This Headline is Slightly Squeezed through Kerning (Not!)</h1>
+
+</body>
+</html>
+
+<style>
+
+h1 {font-size:44px; letter-spacing: -.06em}
+h1.normal {letter-spacing: normal} 
+.kern {letter-spacing: -0.16em;}
+
+
+
+</style>
+</head>
+<body>
+
+<h1>This Headline is Slightly Squeezed through <span class="kern">Kern</span>ing and Heavier Kerning</h1>
+
+<h1 class="normal">This Headline is Slightly Squeezed through Kerning (Not!)</h1>
+
+
+<style>
+
+h1 {font-family: "Arial Black"; font-size:48px; letter-spacing: -.06em}
+h1.normal {letter-spacing: normal} 
+.kern {letter-spacing: -0.20em;}
+.ultrakern {letter-spacing: -0.26em;}
+
+
+</style>
+
+
+<body>
+
+<h1>This Headline is Slightly Squeezed through Kerning and Heavier <span class="ultrakern">Ker</span><span class="kern">ning</span></h1>
+
+<h1 class="normal">This Headline is Slightly Squeezed through Kerning (Not!)</h1>
+
+</body>
+
+
+<html>
+<head>
+
+<style>
+
+h1.spaced{font: bold 48px/.99 "Arial Black"; letter-spacing: -.06em;}
+h1 {font-family: "Arial Black"; font-size:48px; letter-spacing: -.06em;}
+h1.normal {letter-spacing: normal; font-size 48px;} 
+.kern {letter-spacing: -0.20em;}
+.ultrakern {letter-spacing: -0.26em;}
+
+
+</style>
+</head>
+<body>
+
+<h1 class="spaced">This Headline is Slightly Squeezed through <span  
+class="ultrakern">Ker</span><span class="kern">ning</span></h1>
+
+<br>
+<h1 class="normal">This Headline is Slightly Squeezed through Kerning (Not!)</h1>
+
+</body>
+</html>
+
+
+h1 {font: bold 48px "Arial Black"; letter-spacing: -.06em; word-spacing: -.46em; line-height:48px;}
+
+
+<html>
+<head>
+
+<style>
+
+
+h1.kernSpaced {font-family: "Arial Black"; font-size:48px; word-spacing: -.56em;}
+h1 {font-family: "Arial Black"; font-size:48px;}
+
+
+</style>
+</head>
+<body>
+
+
+<h1 class="kernSpaced">This Headline is Slightly Squeezed through Kerning</h1>
+
+<h1>This Headline is Slightly Squeezed through Kerning (Not!)</h1>
+
+
+</body>
+</html>
+
+<html>
+<head>
+
+<style>
+
+h1.spaced{font: bold 48px/1.1 "Arial Black"; letter-spacing: -.06em; word-spacing: -.46em;}
+
+h1.normal {letter-spacing: normal; font: bold 48px "Arial Black";} 
+
+.kern {letter-spacing: -0.20em;}
+.ultrakern {letter-spacing: -0.26em;}
+
+
+</style>
+</head>
+<body>
+
+<h1 class="spaced">This Headline is Slightly Squeezed through <span  
+class="ultrakern">Ker</span><span class="kern">ning</span></h1>
+
+<br>
+<h1 class="normal">This Headline is Slightly Squeezed through Kerning (Not!)</h1>
+
+</body>
+</html>
+
+
+h1.spaced{font: bold 48px/1.1 "Arial Black"; letter-spacing: -.06em; word-spacing: -.46em;}
+
+
+<html>
+<head>
+
+<style>
+
+img {vertical-align: baseline;}
+
+body {font-size: 24px;}
+
+</style>
+</head>
+<body>
+
+
+This is baseline alignment, and here are some p's with descenders for reference: ppp <img src="rect.jpg"/> so you can see that this image aligns with the bottom of "so" not "ppp."
+
+</body>
+</html>
+
+
+
+span.super {vertical-align: super; font-size: 70%;}
+This is 70<span class="super">o</span> cold!
+
+
+<style>
+
+p.right {font-size: 24px; text-align: right;}
+p.center {font-size: 24px; text-align: center;}
+p.justified {font-size: 24px; text-align: justify;}
+
+</style>
+
+
+p {font-size:24px; text-indent: 2em;}
+
+
+<html>
+<head>
+
+<style>
+
+
+body {background: white url("pebble.jpg") repeat;}
+
+h2 {background: url("coin.jpg") no-repeat left top;
+color: blue;
+width: 85%;
+padding: 30px;
+font: bold 48px "Arial Black";
+letter-spacing: -.02em;
+word-spacing: -.16em;
+line-height:48px;
+}
+
+</style>
+</head>
+
+<body>
+<h2>Coins of the Realm</h2>
+
+<h2>European and Asian Available Now!</h2>
+
+</body>
+</html>
+
+
+<html>
+<head>
+
+<style>
+
+
+body {background: white url("pebble.jpg") repeat;}
+
+</style>
+</head>
+
+<body>
+
+<IMG src="headlines.jpg">
+
+<DIV style="top: 390px; left: 85px; position: absolute; font: 32px;" >THIS TEXT IS ON TOP OF THE IMAGE...</DIV>
+
+</body>
+</html>
+
+
+h2 {background: url("coin.jpg") no-repeat left top;
+
+
+body {background-image: url(pebble.jpg);}
+
+
+<html>
+<head>
+
+<style>
+
+
+body {background-image: url(paper.jpg)
+;background-repeat: repeat-y;}
+
+h1 {font-size: 3em;padding-left: 28px}
+
+</style>
+</head>
+
+<body>
+
+<h1>Check in to the B & B!</h1>
+
+<img style="position: absolute; top=100px; left=180px;" src=wet.jpg>
+
+
+</body>
+</html>
+
+
+background-position: top right;
+
+
+background-position: 100% 100%;
+
+
+<html>
+<head>
+
+<style>
+
+body {background-image: url(coin.jpg);background-repeat: no-repeat; background-position: 40% 60%;}
+
+</style>
+</head>
+
+<body>
+
+</body>
+</html>
+
+
+<style>
+
+p {font-size:32px; background-image:url(lightcoin.jpg);background-repeat: no-repeat; background-position: -20px -20px;}
+
+
+</style>
+
+
+background-attachment: fixed;
+
+
+
+----------------------------------------------------------------------------
+CHAPTER 8:
+
+
+
+
+<html>
+<head>
+
+<style>
+
+p {font-size:32px;}
+
+.dropcap {font:bold 400%; float:left; color:GreenYellow;} 
+
+
+</style>
+</head>
+
+<body>
+
+<p><span class="dropcap">N</span>otice that the graphic in Figure 7-21 is not precisely 40% over from the left and 60% down from the top. That’s because the top-left of the graphic is not the positioning point. Instead, the point is inside the graphic at its 40/60 coordinate. Absolute positioning units (inches, px, and so on) can also be used to position a background graphic, using the usual
+</p>
+
+
+</body>
+</html>
+
+
+
+
+
+<html>
+<head>
+
+
+<style>
+p {font-size:24px;}
+p:first-letter {font:bold 300%; float:left; color:GreenYellow;}
+</style>
+
+</head>
+
+<body>
+
+<p>
+Notice that the graphic in Figure 7-21 is not precisely 40% over from the left and 60% down from the top. That’s because the top-left of the graphic is not the positioning point. Instead, the point is inside the graphic at its 40/60 coordinate. Absolute positioning units (inches, px, and so on) can also be used to position a background graphic, using the usual
+</p>
+
+<p>
+You can apply this same offsetting principle to text in various ways. One way is to add an icon--like this watch graphic perhaps--to the side of each of your paragraphs. Flow the paragraphs around the image. Or use an overlapping capital letter at the start of a paragraph. This technique, called a drop cap, has been used for centuries as a way of adding variety to pages of text.
+</p>
+
+</body>
+</html>
+
+
+----------------------------------------------------------------------------
+CHAPTER 9:
+
+
+<p style="border-bottom: 12px blue dotted">
+You can apply this same offsetting principle to text in various ways.
+</p>
+
+<p>
+This is the next paragraph.
+</p>
+
+
+
+<p style="border-bottom: 12px blue dotted; padding-bottom=.5in;">
+You can apply this same offsetting principle to text in various ways.
+</p>
+
+
+<p style="border-bottom: 12px blue dotted; padding-bottom=.5in;margin-bottom=1in;">
+
+
+<img style="border: thin solid"; src="lure.jpg";>
+
+
+<img style="border: thin solid; width=380px; height=240px;" src="lure.jpg";>
+
+
+<body>
+
+<p style="width: 35%;">
+If you allow your Web page to simply be calculated by the browser--the default simply stacks the elements along the left side of the screen in the order that you locate them in the HTML code. This normal positioning takes effect unless you specifically use positioning or floating to violate the normal stacking behavior.
+</p>
+
+
+</body>
+
+
+<style>
+
+p {width: 100px;background:tan;}
+
+</style>
+
+</head>
+
+<body>
+
+<p>This paragraph is only 100px wide.</p> 
+
+
+</body>
+
+
+<style>
+
+p {width: 100px; padding: 30px; margin: 40px; background:tan;}
+
+</style>
+
+</head>
+
+<body>
+
+<p>This paragraph is only 100px wide.</p> 
+
+
+</body>
+
+
+<style>
+
+hr {
+ margin-top:5px;
+ width: 80%;
+ height: 1px;
+ color: blue;
+}
+
+</style>
+</head>
+<body>
+
+
+Horizontal lines are often quite useful as a way of separating different logical areas of your Web page. They can also look good--adding variety. Readers appreciate it if you somehow zone off a page with a fair amount of text. Headlines and subheads help with this, as do borders and background colors or textures. But one of the best ways to indicate that a group of paragraphs belongs together logically is to simply insert horizontal lines as needed.
+<hr>
+
+Now, on a completely different subject, blah blah lines are often quite useful as a way of separating different logical areas of your Web page. They can also look good--adding variety.
+
+
+hr {
+
+ margin-top: 3px;
+ margin-bottom: 5px;
+ height: 14px;
+ width: 60%;
+ background-color: mediumspringgreen;
+}
+
+
+<style>
+
+p {font: 24pt;}
+
+hr {
+ background-image: url(globe.jpg);
+ background-repeat: no-repeat;
+ border: none;
+ width: 400px;
+ height: 800px;
+ }
+</style>
+
+
+----------------------------------------------------------------------------
+CHAPTER 10:
+
+
+<html>
+<head>
+
+<style>
+
+body {font-size:24px;}
+p {border: thick solid green;}
+
+
+</style>
+</head>
+
+<body>
+
+
+<p>Absolute positioning units (inches, px, and so on) can also be used to position a background graphic, using the usual x y coordinate system.
+</p>
+
+
+<p style="border: 10px groove gray">Absolute positioning units (inches, px, and so on) can also be used to position a background graphic, using the usual x y coordinate system.
+</p>
+
+<p style="border: .4in ridge mintcream">Absolute positioning units (inches, px, and so on) can also be used to position a background graphic, using the usual x y coordinate system.
+</p>
+
+<p style="border: 6px double blue">Absolute positioning units (inches, px, and so on) can also be used to position a background graphic, using the usual x y coordinate system.
+</p>
+
+</body>
+</html>
+
+
+style="border: 6px double blue"
+
+p {border: 6px double blue;}
+
+
+<p style="border: 8px solid">This is the SOLID border style. No color is specified, so it defaults to black.
+</p>
+<p style="border: 8px dotted">This is the DOTTED border style.
+</p>
+<p style="border: 8px dashed">This is the DASHED border style.
+</p>
+<p style="border: 8px double">This is the DOUBLE border style.
+</p>
+<p style="border: 8px groove">This is the GROOVE border style.
+</p>
+<p style="border: 8px ridge">This is the RIDGE border style.
+</p>
+<p style="border: 8px inset">This is the INSET border style.
+</p>
+<p style="border: 8px outset">This is the OUTSET border style.
+</p>
+
+
+<html>
+<head>
+
+<style>
+
+IMG {border-style: dotted dotted none dashed;}
+
+</style>
+</head>
+
+<body>
+
+<IMG src="woofie.jpg" >
+
+</body>
+</html>
+
+<style>
+
+P {background-color: lightsalmon; padding: 12px; 
+  border-style: double; border-width: thick;}
+
+</style>
+
+<style>
+
+
+P {padding-left: 6px; padding-right: 4px; padding-top: 6px;
+  border-style: double; border-width: thick;
+  
+  border-color: lightskyblue lightskyblue darkslateblue darkslateblue;}
+
+</style>
+
+
+<body>
+
+<h2><img src="woofie.jpg" style=" width: 200px; height: 150px; margin: 0 3% 0;">Illustrating how a gradient effect works</h2>
+
+<p>You can apply gradients to various images, as you wish. Imagine the nice fade-in effect that you can generate if you add some scripting to slowly adjust the opacity value while the user is watching.</p>
+
+</body>
+
+
+<body>
+
+<h2><img src="woofie.jpg" style="float: left; width: 200px;
+height: 150px; margin: 0 3% 0;">Illustrating how a gradient effect works</h2>
+
+<p>You can apply gradients to various images, as you wish. Imagine the nice fade-in effect that you can generate if you add some scripting to slowly adjust the opacity value while the user is watching.</p>
+
+</body>
+
+
+float: right;
+
+
+<h3><img src="woofie.jpg" style="float: left; width: 100px;
+height: 75px;">
+<img src="woofie.jpg" style="float: right; width: 100px;
+height: 75px;">
+Illustrating how a gradient effect works</h3>
+
+
+<body>
+
+<img src="woofie.jpg" style="float: left; width: 200px;
+height: 150px;">
+
+<p>You can apply gradients to various images, as you wish. Imagine the nice fade-in effect that you can generate if you add some scripting to slowly adjust the opacity value while the user is watching.
+<br>
+We want this paragraph to be disassociated from the previous paragraph and from the floating image. You can apply gradients to various images, as you wish. Imagine the nice fade-in effect that you can generate if you add some scripting to slowly adjust the opacity value while the user is watching.</p>
+</body>
+
+
+<br style="clear: left">
+div.spacer
+{
+    clear: both;
+}
+
+
+
+
+----------------------------------------------------------------------------
+CHAPTER 11:
+
+
+<html>
+<head>
+
+<style>
+
+p {width: 150px; margin-right: auto; margin-left: 150px;border: 2px solid;}
+
+</style>
+</head>
+
+<body>
+
+<p>This paragraph's right margin is set to auto. The box dimensions are not necessarily the same as the visible contents, or the visible border. If padding is used, then the box grows to include the padding dimensions. If a border or margin are further added, they, too, grow the size of the box.
+</p>
+</body>
+</html>
+
+p {margin-left: 50px; margin-right: 50px; border: 2px solid;}
+
+p {width: auto; margin-left: 50px; margin-right: 50px; border: 2px solid;}
+
+p {margin-left: auto; margin-right: auto; width: 200px;}
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Strict//EN" >
+
+<html>
+<head>
+
+<style>
+p {margin-left: auto; margin-right: auto; width: 200px;}
+</style>
+
+
+ 
+p {width: auto; margin-top: 100px; margin-bottom: 100px; border: 2px solid;}
+
+div {
+height: 100%;
+width: 100%;
+display: table;
+position: fixed;}
+
+p
+{
+display: table-cell;
+vertical-align: middle;
+}
+
+
+<html>
+<head>
+
+<style>
+
+span {border: 3px dotted;}
+body {font-size: large;}
+
+</style>
+</head>
+
+<body>
+
+<p>The nasty, spooky things you can do by via repositioning and otherwise molesting perfectly good text. This section of the chapter should serve more as a warning than a guide.<span>HERE IS SOME INLINE TEXT WITH A BORDER!</span>...looks pretty bad, right?</p>
+</body>
+</html>
+
+
+<style>
+
+span {background: linen; padding-top: 16px;}
+ 
+</style>
+
+
+----------------------------------------------------------------------------
+CHAPTER 12:
+
+
+<html>
+<head>
+
+<style>
+body {font-size: large;}
+</style>
+</head>
+
+<body>
+
+<ul>
+<li>first
+<li>second
+<li>third
+</ul>
+
+<ul style="list-style-type: circle;">
+<li>first
+<li>second
+<li>third
+</ul>
+
+<ul style="list-style-type: square;">
+<li>first
+<li>second
+<li>third
+</ul>
+
+</body>
+</html>
+
+
+UL.plain {list-style-type: none; }
+
+
+
+
+<html>
+<head>
+
+<style>
+
+li {list-style-image: url("shadow.jpg");}
+body {font-size: large;}
+</style>
+</head>
+
+<body>
+
+<ul>
+<li>onezee
+<li>doozee
+<li>thrice
+</ul>
+
+</body>
+</html>
+
+ul {list-style-position: inside}
+
+
+<style>
+li {list-style: circle inside}
+</style>
+
+
+<style>
+li {list-style: url("shadow.jpg");}
+</style>
+
+
+<ul style=”list-style; square inside”>
+
+<img src="http://hp.msn.com/c/home/c.gif" width="25" height="20" />
+
+<html>
+<head>
+<body>
+
+<table>
+<tr>
+<td>
+
+<table style="table-layout: fixed; width: 150px; border: solid">
+<tr>
+<td><img src="thought.jpg"><br />
+A friend in contemplative thought, reduced to grayscale.</td>
+</tr>
+</table>
+</td>
+<td>
+
+<table style="table-layout: auto; border: solid" >
+<tr>
+<td><img src="thought.jpg"><br />
+A friend in contemplative thought, reduced to grayscale.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+</body>
+</html>
+
+<html>
+<head>
+
+<style>
+
+.topheadline {
+padding: 10px; 
+font-size: xx-large;
+font-family: arial black;
+ left: 12%;
+ top: 0%;
+ width: 75%;
+ position: absolute;}
+
+
+.biggestcolumn {
+
+ top: 25%;
+padding: 10px;
+ font-size: small;
+ left: 50%;
+ width: 40%;
+ text-align: justify;
+ background: lightgrey;
+position: absolute;}
+
+
+ .mediumcolumn {
+padding: 10px;
+top:40%;
+ left: 5%;
+ width: 35%;
+ background: lightsalmon;
+ position: absolute;}
+
+
+.smallcolumn {
+padding: 10px;
+ left: 45%;
+ width: 25%;
+ top: 65%;
+ background: lightsalmon;
+ position: absolute;}
+
+</style>
+</head>
+
+<body>
+
+<div class="topheadline">
+THIS IS THE MAIN HEADLINE
+</div>
+
+<div class="biggestcolumn">
+The biggest column: Here you are specifying that you want the first paragraph displayed in a special green version of the highlight class, but …
+</div>
+
+<div class="mediumcolumn">
+The medium column: Here you are specifying that you want the first paragraph displayed in a special green version of the highlight class, but … 
+</div>
+
+
+<div class="smallcolumn">
+The small column: Here you are specifying that you want the first paragraph displayed in a special green version of the highlight class, but …
+</div>
+
+</body>
+</html>
+<style>
+
+body {
+ background-image: url(backfish.jpg);
+ background-repeat: no-repeat; }
+
+.biggestcolumn {
+
+ top: 25%;
+padding: 10px;
+ font-size: medium;
+ left: 50%;
+ width: 40%;
+ text-align: justify;
+
+position: absolute;}
+
+.smallcolumn {
+padding: 10px;
+ left: 25%;
+ width: 25%;
+ top: 70%;
+
+ position: absolute;}
+
+</style>
+
+.topheadline {
+padding: 10px; 
+font-size: xx-large;
+font-family: arial black;
+ left: 12%;
+ top: 10%;
+ width: 75%;
+ position: absolute;}
+
+<html>
+<head>
+
+<style>
+
+body {
+ background-image: url(background.jpg);
+ background-repeat: no-repeat; }
+
+.topheadline {
+
+font: bold 48px/.99 "Arial Black"; letter-spacing: -.06em;
+padding: 10px; 
+
+left: 100px;
+ top: 85px;
+ width: 475px;
+
+ position: absolute;}
+
+
+.biggestcolumn {
+
+ 
+ padding: 10px;
+ font-size: medium;
+
+ left: 200px;
+ top: 200px;
+ width: 370px;
+ 
+text-align: justify;
+
+position: absolute;}
+
+
+ .mediumcolumn {
+padding: 10px;
+ font-size: medium;
+ top:420px;
+ left: 80px;
+ width: 350px;
+ position: absolute;}
+
+
+.smallcolumn {
+padding: 10px;
+ left: 590px;
+ width: 200px;
+ top: 430px;
+ position: absolute;}
+
+</style>
+</head>
+
+font: bold 48px/.99 "Arial Black"; letter-spacing: -.06em;
+
+<html>
+<head>
+
+<style>
+
+body {
+ background-image: url(background.jpg);
+ background-repeat: no-repeat;
+padding: 24px;
+ }
+
+.topheadline {
+font: bold 48px/.99 "Arial Black"; letter-spacing: -.06em;
+padding: 5px; }
+
+
+.leftcolumn {
+float: left;
+width: 35%;
+padding: 10px;
+text-align: justify;}
+
+.rightcolumn {
+float: left;
+width: 65%;
+padding: 10px;
+margin-bottom: 23px;
+text-align: justify;}
+
+.midhead {
+ clear: both;
+ font: 24px/.99 "Arial"; letter-spacing: -.06em;
+ text-align: right;
+ padding-bottom: 15px;
+
+}
+
+hr {
+ clear: both;
+ height: 2px;
+ width: 90%;
+ background-color: mediumspringgreen;
+}
+
+</style>
+</head>
+
+<body>
+
+
+<div class="topheadline">
+THIS IS THE MAIN HEADLINE
+</div>
+
+<div class="leftcolumn">
+The left column: Here you are specifying that you want the first paragraph displayed in a special green version of the highlight class, but the second
+</div>
+
+
+<div class="rightcolumn">
+The right column: Here you are specifying that you want the first paragraph displayed in a special green version of the highlight class, but the second
+</div>
+
+<hr>
+
+<div class="midhead">
+You know what you will, but do as you may, for all is long
+</div>
+
+<div class="leftcolumn">
+The left column: Here you are specifying that you want the first paragraph displayed in a special green version of the highlight class, but the second
+</div>
+
+
+<div class="rightcolumn">
+The right column: Here you are specifying that you want the first paragraph displayed in a special green version of the highlight class, but the second
+
+</div>
+
+</body>
+</html>
+
+
+.topheadline {
+position: absolute;
+top: 25px;
+font: bold 48px/.99 "Arial Black"; letter-spacing: -.06em;
+padding: 5px; }
+
+.leftcolumn {
+ position: absolute;
+ top: 135px;
+ left:25px;
+ width:200px;
+ text-align: justify;}
+
+.rightcolumn {
+ position: absolute;
+ top: 135px;
+ left:260px;
+ width:200px;
+ text-align: justify;}
+
+.thirdcolumn {
+ position: absolute;
+ top: 135px;
+ left:495px;
+ width:200px;
+ text-align: justify;}
+
+<body>
+
+<div class="topheadline">
+WHEN SHIPS HEAD TO SEA
+</div>
+
+<div class="leftcolumn">
+The right column: Here you are specifying that you want the first paragraph displayed in a special green version of the highlight class, but the second 
+</div>
+
+
+<div class="rightcolumn">
+The right column: Here you are specifying that you want the first paragraph displayed in a special green version of the highlight class, but the second 
+</div>
+
+
+<div class="thirdcolumn">
+The right column: Here you are specifying that you want the first paragraph displayed in a special green version of the highlight class, but the second 
+</div>
+
+</body>
+
+
+----------------------------------------------------------------------------
+CHAPTER 13:
+
+
+<html>
+<head>
+
+<style>
+
+p {height: 350px; width: 450px; font-size: 44pt;
+
+filter: progid:DXImageTransform.Microsoft.Shadow
+(color='gray', Direction=120, Strength=6)
+
+}
+
+</style>
+</head>
+
+<body>
+
+<p>
+Get a Drop Shadow Effect
+</p>
+
+
+</body>
+</html>
+
+<img src="seashore.jpg" alt="This is a pleasant, if cliched, photo of a typical, deserted Aussie beach.">
+
+ 
+http://msdn.microsoft.com/library/default.asp?url=/workshop/author/filter/filters.asp
+
+filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=5, OffY=5, Color='gray', Positive='true')"
+
+<style>
+
+p {height: 350px; width: 450px; font-size: 44pt;
+
+filter:progid:DXImageTransform.Microsoft.MotionBlur(Strength=5,Direction=120);}
+
+
+filter:progid:DXImageTransform.Microsoft.MotionBlur(Strength=45,Direction=270);}
+
+<html>
+<head>
+
+<SCRIPT LANGUAGE=vbscript>
+
+dim toggle
+
+function fader 
+
+    mydiv.filters(0).Apply                   
+
+    if toggle = 1 Then
+
+        toggle = 0
+        mydiv.style.backgroundColor="indigo"
+
+    else 
+        toggle = 1
+        mydiv.style.backgroundColor="lime"
+
+    end if
+
+    mydiv.filters(0).Play
+
+End Function
+
+</SCRIPT>
+
+
+
+</head>
+
+<body>
+
+
+
+
+<DIV ID="mydiv" STYLE=" background-color: indigo; height:400px; width:500px;
+
+         filter:progid:DXImageTransform.Microsoft.Fade(duration=3);">
+
+</DIV>
+
+<br>
+<button onclick="fader()">Click Me!</button>
+
+</body>
+</html>
+
+
+
+
+
+
+
+<SCRIPT>
+
+var toggle = 0;
+
+function fader() {
+
+    mydiv.filters[0].Apply();                   
+
+    if (toggle) {                                                        
+        toggle = 0;
+        mydiv.style.backgroundColor="indigo";}
+    else {
+        toggle = 1;
+        mydiv.style.backgroundColor="lime";}  
+    mydiv.filters[0].Play();
+}
+
+</SCRIPT>
+
+<button onclick="fader()">Click Me!</button>
+
+
+    mydiv.filters(0).Apply                   
+
+    if toggle = 1 Then
+
+        toggle = 0
+        mydiv.style.backgroundColor="indigo"
+
+    else 
+        toggle = 1
+        mydiv.style.backgroundColor="lime"
+
+    end if
+
+    mydiv.filters(0).Play
+
+filter:progid:DXImageTransform.Microsoft.Blinds(duration=3)
+
+http://msdn.microsoft.com/library/default.asp?url=/workshop/author/filter/filters.asp
+
+filter:progid:DXImageTransform.Microsoft.Blinds(duration=3, direction = 'right')
+        
+
+filter:progid:DXImageTransform.Microsoft.Blinds(duration=3, direction = 'right', bands=20)
+
+
+<html>
+<head>
+
+<SCRIPT LANGUAGE=VBScript>
+
+function fadethem()
+
+    myimage.filters.item(0).Apply()
+    myimage.src="second.jpg"
+    myimage.filters.item(0).Play()
+
+end function
+
+</SCRIPT>
+
+<style>
+H1 {font-size: 42px;padding-left: 3%;}
+BODY {background-image: url(texture.jpg);}
+</style>
+
+
+</HEAD>
+
+<BODY>
+
+<br>
+<H1> Join us! We Have all Styles of Houses</h1>
+
+<IMG ID=myimage width=60% height=70% 
+
+src="first.jpg" style="filter:progid:DXImageTransform.Microsoft.fade(Duration=2);
+border= 14px solid peru inset; position=relative; left=20%;">
+
+<br><br>
+
+<INPUT type=button style="position=relative;left=83%;font-weight: lighter;  
+font-size: 20px; width: 120px; font-family: 'times new roman'; height: 44px"
+value="See More" onClick="fadethem()">
+
+<IMG src="first.jpg" style="width:1; height:1;visibility:hidden">
+<IMG src="second.jpg" style="width:1; height:1; visibility:hidden">
+
+</BODY>
+
+</html>
+
+
+<SCRIPT LANGUAGE=JavaScript>
+function fadethem()
+{
+    myimage.filters.item(0).Apply();
+    myimage.src="second.jpg";
+    myimage.filters.item(0).Play();
+}
+</SCRIPT>
+
+body {
+ background-image: url(backfish.jpg);
+}
+
+
+<body background-image="texture.jpg" font-size: 24px;>
+
+
+<IMG src="texture.jpg">
+
+
+h2 {background: url("coin.jpg") no-repeat left top;
+
+<html>
+<head>
+
+<meta http-equiv="page-enter"
+content="progid:dximagetransform.microsoft.wheel(duration=4)"/>
+
+<meta http-equiv="page-exit"
+content="progid:dximagetransform.microsoft.stretch(duration=3,stretchstyle='spin')"  
+  />
+
+</head>
+<body>
+
+<h1> Visit Us Often! We Have Lots of Great Transitions</h1>
+
+</body>
+
+</html>
+
+
+
+----------------------------------------------------------------------------
+CHAPTER 14:
+
+
+
+
+<body>
+
+<p>I cannot <i>emphasize</i> this point enough!</p>
+
+<p>But in this paragraph, I'm calmer.</p>
+
+</body>
+
+
+<html>
+  <head>
+    <style>
+    </style>
+  </head>
+
+  <body>
+
+     <p>I cannot <i>emphasize</i> this point enough!</p>
+
+     <p>But in this paragraph, I'm calmer.</p>
+
+  </body>
+</html>
+
+<style>
+p i {border-bottom: 1px solid;}
+</style>
+
+<html>
+<head>
+
+<style>
+p i {border-bottom: 1px solid;}
+</style>
+
+
+</head>
+
+<body>
+
+<h1>This <i>is not</i> underlined</h1>
+
+<p>However, this italics element is a descendant of a paragraph, so <i>it does</i> get underlined.</p>
+
+
+</body>
+</html>
+
+
+<style>
+p,i {color: blue;}
+</style>
+
+
+b, strong {color: coral;}
+
+
+b strong {color: black;}
+
+<html>
+<head>
+
+<style>
+
+b, strong {color: coral;}
+
+b strong {color: black;}
+
+body {font-size: 24 px;}
+</style>
+
+
+</head>
+
+<body>
+
+<P>
+<b>This paragraph is entirely bold, so we <strong>simply had to find</strong> a way  
+to emphasize text within the boldness.</b>
+
+
+<P>
+Here's a paragraph with something <b> just plain bold.</b>
+
+<P>
+Here's a paragraph with something <strong> just plain strong.</strong>
+
+</body>
+</html>
+
+
+b strong span {background-color:blue}
+
+
+b strong span, h2 i {background-color:blue}
+
+
+p,i {color: green;}
+
+
+
+<P>
+Here's a paragraph with <i>italics, but <strong>also some strong inside</strong> the italics</i>.
+
+
+* {color: red;} 
+
+
+
+body * * UL {color: red;}
+
+
+
+body * UL {color: red;} 
+
+
+p > i {color: blue;}
+
+
+<P>
+Here's a paragraph with <i>italics, but <strong>also some strong child inside</strong> the italics</i>.
+
+
+h1 > strong {color: red;}
+
+<h1>This is <strong>very</strong> important.</h1>
+<h1>This is <em>really <strong>very</strong></em> important.</h1>
+
+
+<p align="right">
+
+
+<p align="right" color=”blue”>
+
+
+p[align='right'] {border: 3px solid gray;}
+
+
+
+----------------------------------------------------------------------------
+CHAPTER 15:
+
+
+a[href$='.asp']{color: red;}
+<html>
+<head>
+
+<style>
+
+
+p:not([border]){border: 6px solid red;}
+
+body {font-size: 24 px;}
+
+</style>
+
+
+</head>
+
+<body>
+
+<P style="border: 3px solid blue">
+Here's a paragraph with a border defined in a style. </p>
+
+<P>
+Here's a normal paragraph with no border defined, so it gets a red border. </p>
+
+</body>
+</html>
+
+
+
+<style>
+
+p.bordr {border: 3px solid blue;}
+
+p:not([border]){border: 6px solid red;}
+
+body {font-size: 24 px;}
+
+</style>
+
+
+</head>
+
+<body>
+
+<P class="bordr">
+Here's a paragraph with a border defined in a style. </p>
+
+<P>
+Here's a normal paragraph with no border defined, so it gets a red border. </p>
+
+
+
+
+
+
+p:not(border){border: 6px solid red;}
+
+
+div.maintext {position: absolute; z-index: 2; opacity: 0.5;  background-color: darkkhaki; top: 55;left: 100px; height: 75%; width: 75%;}
+div.maintext {position: absolute; z-index: 2;
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);  background-color: darkkhaki; top: 55;left: 100px; height: 75%; width: 75%;}
+<html>
+<head>
+
+<style type="text/css">
+
+
+img.framed {padding-left: 6px; padding-right: 4px; padding-top: 6px; border: 12px inset lightblue;}
+
+</style>
+
+
+</head>
+
+<img  class="framed" src = "texture.jpg">
+
+</body>
+</html>
+
+
+a:link {color: #FF0000;}     /* an unvisited link */
+a:visited {color: #00FF00;}  /* a visited link */
+a:hover {color: #FF00FF;}   /* a link with the mouse hovering over it */
+a:active {color: #0000FF;}   /* the selected link */
+<html>
+<head>
+
+<style>
+
+
+a:link {color: blue;}     /* an unvisited link */
+a:visited {color: purple;}  /* a visited link */
+a:hover {color: red;}   /* a link with the mouse hovering over it */
+a:active {color: green;}   /* the selected link */
+
+</style>
+</head>
+
+
+<body style="font-size=x-large">
+
+<a href="http://www.cnn.com">Click here for CNN</a>
+
+
+</body>
+a.pinklink:hover {color: pink}
+<a class="pinklink" href="http://www.zrsn.ori">Click here for a real shock.</a>
+
+
+body > p:first-child
+{
+text-indent:30px;
+
+
+}
+
+<p>
+This first paragraph is indented, yes?
+</p>
+
+<p>
+But this second paragraph isn’t indented.
+</p>
+
+
+<html>
+<head>
+
+<style>
+
+p:first-letter 
+
+{color: steelblue;
+font-size:44px;}
+
+</style>
+</head>
+
+
+<body style="font-size=x-large">
+
+
+<p>
+This first paragraph has a nice drop cap effect that you can see in steel blue.
+</p>
+
+<p>
+And this second paragraph has a drop cap too.
+</p>
+
+</body>
+</html>
+
+
+p:first-line {font-size: 45px}
+
+
+ul:nth-child(6){background-color: red;}
+ul:nth-child(2n+1){background-color: red;}
+ul:nth-child(4n+1){background-color: red;}
+
+
+ul:nth-child(even){background-color: red;}
+ul:first-of-type{text-style: italic;}
+
+
+----------------------------------------------------------------------------
+CHAPTER 16:
+
+
+
+<noscript>
+<p>Sorry, you have configured your browser to prohibit scripting. If you want to allow scripting in Internet Explorer, adjust the settings in the Tools@@-->Internet Options dialog box. Click the Security tab, and then click the Custom Level button and set the permissions.
+</noscript>
+
+
+
+
+
+<html>
+<head>
+
+<script type="text/javascript" language="JavaScript">
+<!@md
+function foryou( ) {
+    alert("A message for you!");
+}
+//@md>
+</script>
+
+
+</head>
+
+<body>
+
+
+<button onclick="foryou()">Click me for a personal message.</button>
+
+</body>
+</html>
+<script>
+
+function foryou( ) {
+    alert("A message for you!");
+}
+
+</script>
+
+
+
+
+
+<script language="VBScript">
+
+function foryou
+
+    msgbox ("A message for you!")
+
+end function
+
+</script>
+<script type="text/javascript" src="foryou.js"></script>
+
+<script language="VBScript">
+
+    msgbox ("A message for you!")
+
+</script>
+<script>
+
+    alert("Hello, HTML world!");
+
+</script>
+
+
+<html>
+<head>
+
+
+<script>
+
+function changestyle(obj,sname,ch) {
+
+var dom = document.getElementById(obj).style;
+dom [sname] = ch;
+
+}
+
+</script>
+
+<style>
+
+#pfirst {
+
+font-size: 8px;
+width: 400px;
+
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+<h1 id="head1" onmouseover=
+
+"changestyle('pfirst','fontSize','24px');  
+changestyle('head1','color','green');"
+
+>Hover mouse here to expand.
+</h1> 
+
+
+<br>
+
+<br>
+
+<p id="pfirst">
+
+For small programming jobs, scripting works just fine. Scripting is programming, albeit with a somewhat abbreviated language. Scripting is designed to get past firewalls, browser security settings, and other security measures. A script language is quite similar to its parent language (Visual Basic or Java), but some potentially dangerous commands @@md mainly hard drive access, such as file deleting @@md are removed from the script language.</p>
+
+</body>
+</html>
+
+
+
+function changestyle(obj,sname,ch) {
+
+var dom = document.getElementById(obj).style;
+dom [sname] = ch;
+
+}
+
+
+
+<h1 id="head1" onmouseover=
+"changestyle('pfirst','fontSize','24px');
+ changestyle('head1','color','green');"
+>Hover mouse here to expand.
+</h1>
+
+
+p {font-size: 8px; color: pink; }
+
+
+
+<h1 onmouseover="newrule('p','font-size: 18px; color: blue')">Hover here to drop 
+<style id="thestyles">
+<html>
+<head>
+<script>
+
+function newrule(selector,props) {
+
+document.styleSheets.MyStyles.addRule(selector,props)
+
+}
+
+</script>
+
+
+<style id="MyStyles">
+
+h1 {font-size: 24pt}
+
+p {font-size: 8px; color: pink;}
+
+</style>
+
+
+</head>
+<body>
+
+<h1 onmouseover="newrule('p','font-size: 18px; color: blue')">Hover here to drop  
+text</h1>
+
+<p>
+For small programming jobs, scripting works just fine. Scripting is programming, albeit with a somewhat abbreviated language. Scripting is designed to get past firewalls, browser security settings, and other security measures.
+</p>
+
+</body>
+
+</html>
+<h1 onmouseover="newrule('p','font-size: 18px; color: blue')">Hover here to drop 
+document.styleSheets.thestyles.addRule(selector,specs)
+
+<h1 onmouseover="newrule('p','font-size: 18px; color: green')">Hover here to drop 
+Or, if you want to change the properties for the headline selector rather than the p, just make this change (shown in boldface):
+<h1 onmouseover="newrule('h1','font-size: 18px; color: blue')">Hover here to drop 
+
+
+<html>
+<head>
+<script LANGUAGE="VBScript">
+
+function startTimer()
+       timerhandle = setTimeout("changehead",3000)
+end function
+
+function stopTimer()
+       clearTimeout(timerhandle)
+end function
+
+function changehead()
+ h.style.color = "slateblue"
+ h.style.fontSize = "36"
+end function
+
+</script>
+
+</head>
+
+<body onload="startTimer()" onunload="stopTimer()">
+
+<h1 ID="h">Some headlines can change, all on their own...</h1>
+
+</body>
+</html>
+function startTimer()
+       timerhandle = setTimeout("changehead",3000)
+<body onload="startTimer()" onunload="stopTimer()">
+function changehead()
+ h.style.color = "slateblue"
+ h.style.fontSize = "36"
+end function
+	
+
+
+<html>
+<head>
+<script LANGUAGE="VBScript">
+
+function startTimer()
+       timerhandle = setTimeout("jump",5000)
+end function
+
+function jump()
+document.location = "colorriot.jpg"
+end function
+
+function stopTimer()
+       clearTimeout(timerhandle)
+end function
+
+</script>
+</head>
+
+<body onload="startTimer()" onunload="stopTimer()">
+
+<img src="andy.jpg">
+</body>
+</html>
+document.location = "file:///C:/cheese.htm"
+
+timerhandle = setTimeout("movep",3000)
+clearTimeout(timerhandle)
+
+
+timerhandle = setInterval ("movep",200)
+<html>
+<head>
+
+<script LANGUAGE="VBScript">
+
+dim toggle
+
+function startTimer()
+       timerhandle = setInterval("movep",100)
+end function
+
+function stopTimer()
+       clearTimeout(timerhandle)
+end function
+
+function movep()
+
+toggle = not toggle
+
+if toggle then
+    para.style.color = "slateblue"
+else
+    para.style.color = "black"
+end if 
+
+end function
+
+</script>
+</head>
+
+<body onload="startTimer()" onunload="stopTimer()">
+
+<p ID="para" style="font-size: 24px;">This text vibrates a little bit!</p>
+</body>
+</html>
+
+
+
+----------------------------------------------------------------------------
+CHAPTER 17:
+
+
+<html>
+<head>
+
+<style>
+
+img {
+border: silver outset; 
+border-width:16px;}
+
+</style>
+
+</head>
+<body>
+
+<img WIDTH=320px HEIGHT=264px src="GrandfatherHouse.jpg">
+
+</body>
+</html>
+
+width=320px height=264px
+
+<img border=silver outset border-width=16px>
+<img border=silver outset
+     border-width=16px>
+
+
+
+
+
+http://www.webstandards.org/upgrade/
+<script>
+
+<!--  //
+
+if (!document.getElementById) {
+    window.location = "http://www.webstandards.org/upgrade/"
+}
+
+    // -->
+</script>
+
+
+
+p
+{
+color: green;
+text-align: center;
+font-family: arial!Important;
+font-size:18.0pt!Important
+}
+
+h1, h2
+{
+font-family: ravie!Important;
+font-style: normal!Important
+text-align: center;
+}
+
+
+
+p { 
+color : blue; 
+text-align : center; 
+font-family : arial !important; 
+font-size : 18pt !important; 
+} 
+
+
+font-style: normal!Important
+
+
+
+font-style: normal!Important;
+
+
+p { 
+color : green; 
+text-align : center; 
+font-family : arial !important; 
+font-size : 18pt !important; 
+} 
+
+h1 , h2 { 
+font-family : ravie !important; 
+font-style : normal !important; 
+text-align : center; 
+} 
+
+
+p
+{
+color: 12px;
+text-align: center;
+}
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<style>
+
+body { margin-top: 20px; color: lightgray;}
+
+</style>
+
+</head>
+
+<body>
+
+<P>This is paragraph one.</P>
+
+
+</body>
+</html>
+	
+
+<style type="text/css">
+
+<title>My Title</title>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+
+<title>Some Supposedly optional Title</title>
+
+<style type="text/css">
+
+body { margin-top: 25px; margin-bottom: 25px; margin-left: 25px; margin-right: 25px; }
+
+</style>
+
+</head>
+
+<body>
+
+<P>This is paragraph one.</P>
+
+
+</body>
+</html> 
+
+
+
+
+----------------------------------------------------------------------------
+CHAPTER 18:
+
+
+
+body {font-size: 24px;}
+
+
+p {border: 12px;}
+p {border: solid 12px;}
+
+
+BODY {color: brown;}
+BODY {color: brown; background-color: yellow;}
+
+
+<div style="width: 400px; background-color: lightblue; padding: 4px; margin: 0px auto;">
+<div style="text-align:center;">
+<html>
+<head>
+
+<style>
+</style>
+
+</head>
+<body>
+
+<div style="text-align:center;">
+
+<div style="background-color: lightblue; width: 400px;
+padding: 4px; margin: 0px auto;">
+
+<p>HERE I am...
+
+</div></div>
+
+</body>
+</html>
+
+
+<html>
+<head>
+<script LANGUAGE="VBScript">
+
+dim counter
+
+function startTimer()
+       timerhandle = setInterval("sizeit",130)
+end function
+
+function stopTimer()
+       clearTimeout(timerhandle)
+end function
+
+function sizeit()
+counter = counter + 1
+if counter > 49 then counter = 1
+n = "blur(add=1, direction=125, strength=" & counter & ")"
+divider.style.filter= n
+end function
+</script>
+
+<style>
+
+div {position: absolute; filter: blur(add=1, direction=15, strength=90";}
+
+</style>
+
+</head>
+
+<body onload="startTimer()" onunload="stopTimer()">
+
+<div id="divider">
+<h1>This is a blur effect over time.</h1>
+</div>
+</body>
+</html>
+
+
+
+       timerhandle = setInterval("sizeit",130)
+
+
+
+
+
+
+<HTML>
+<HEAD>
+<style>
+
+ul { list-style-image: url("mybullet.jpg"); font: 32px; } 
+
+</style>
+</HEAD>    
+<body>
+
+<ul>
+<li>first
+<li>second
+<li>third
+</ul>
+
+</body>
+</html>
+
+
+list-style-image: url("mybullet.jpg")
+list-style-image: url("file:///C:\mause.jpg")
+list-style-image: url("file:///F:\Photos\mause.jpg")
+list-style-image: url("file:///\\Hp\servr\PHOTOS\mause.jpg")
+"file:///\\\\\\\/^^^\\outerspace\servr\PHOTOS\mause.jpg"
+
+
+<HTML>
+<HEAD>
+
+<style>
+
+.framed { 
+           border: solid 3px red;
+           padding: 6px;}
+
+.pink { background-color: pink; }
+.blue { background-color: blue; }
+.green { background-color: green; }
+
+
+</style>
+</HEAD>    
+<body>
+
+<p class="framed green">
+You can save yourself some time and trouble by defining classes that are later combined, like adjectives combine with nouns.
+</p>
+
+<p class="framed blue">
+You can save yourself some time and trouble by defining classes that are later combined, like adjectives combine with nouns.
+</p>
+
+<p class="framed pink">
+You can save yourself some time and trouble by defining classes that are later combined, like adjectives combine with nouns.
+</p>
+
+</body>
+</html>
+
+
+
+----------------------------------------------------------------------------
+CHAPTER 19:
+
+
+<p style="color: green;">This paragraph includes <strong>boldface</strong> and also a link <a href="http://www.ebay.com/">eBay</A> to a Web page.
+</p>
+<p style="color: green;">This paragraph includes <strong>boldface</strong> and also a link <a style="color: green;" href="http://www.ebay.com/">eBay</A> to a Web page.
+</p>
+
+
+body > h2:not(:first-of-type):not(:last-of-type);
+
+
+
+<IMG SRC="seashore.jpg" ALT="This is a pleasant, if clichéd, photo of a typical, deserted Aussie beach.">
+p
+{
+font-family: arial
+} 
+p
+{
+font-family: arial, sans-serif
+}
+
+
+ 
+<link type="text/css" rel="stylesheet" title="Oldstyle"
+href="MyDefault.css">
+
+<link type="text/css" rel="alternate stylesheet" title="Conservative" href="MyDefault.css">
+
+<link type="text/css" rel="alternate stylesheet"
+title="Out There" href="MyDefault.css">
+http://www.alistapart.com/
+
+
+<HTML>
+
+<HEAD>
+</HEAD>    
+
+<BODY">
+
+<DIV style="position: absolute; 
+top: 35px; 
+left: 150px; 
+color:lightgreen; 
+font-size: 90pt ">
+SUPER
+</DIV>
+
+<DIV style="position: absolute; 
+top: 98px; 
+left: 181px; 
+font-size: 40pt; 
+font-style: italic;
+letter-spacing: .9cm;
+color: gray;">imposition
+</DIV>
+
+<DIV style="position: absolute; 
+top: 95px; 
+left: 179px; 
+font-size: 40pt; 
+font-style: italic;
+letter-spacing: .9cm;
+color: hotpink;">imposition
+</DIV>
+
+</BODY> 
+</HTML>
+
+
+
+
+
+
+
+
